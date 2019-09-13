@@ -2,6 +2,19 @@
 SELECT COUNT(*)
 FROM evapro.study_browser
 
+-- Count all analyses
+SELECT COUNT(DISTINCT analysis_accession)
+FROM evapro.project_analysis
+
+-- Fetch all studies
+SELECT DISTINCT p.secondary_study_id
+FROM evapro.project p
+INNER JOIN evapro.study_browser s
+  ON p.project_accession = s.project_accession
+WHERE
+  p.secondary_study_id IS NOT NULL
+ORDER BY p.secondary_study_id
+
 -- Fetch importable studies
 SELECT DISTINCT p.secondary_study_id
 FROM evapro.project p
