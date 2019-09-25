@@ -1,5 +1,26 @@
 # Functions & commands to extract the information from API
 
+extract_accessions () { jq -r '.accessionVersionId | .accession'; }
+export -f extract_accessions
+
+# Count the total number of imported studies
+IMPORTED_STUDY_COUNT=`curl -s http://localhost:8080/studies | jq -r '.page | .totalElements'`
+
+# Fetch all browsable studies
+ORIGINAL_STUDY_COUNT=`wc -l < input-studies.txt`
+parallel -j 16 -k \
+curl -s http://localhost:8080/studies/{} '|' extract_accessions \
+::: $(seq 0 $(( ORIGINAL_STUDY_COUNT - 1 ))) \
+| grep -v null | sort > studies-result.txt
+
+# Generate the list of studies which failed to import
+grep -v -f studies-result.txt input-studies.txt | sort > missing-studies.txt
+
+# Count the total number of analyses
+IMPORTED_ANALYSIS_COUNT=`curl -s http://localhost:8080/analyses | jq -r '.page | .totalElements'`
+
+# Obsolete - Functions & commands to extract the information from API
+
 extract_analysis_accession () { jq -r '.accessionVersionId | .accession'; }
 extract_samples_accessions () { jq -r '._embedded | .samples | .[] | .accessionVersionId | .accession'; }
 extract_sample_taxonomylink () { jq -r '._embedded | .samples | .[] | ._links | .taxonomies | .href'; }
