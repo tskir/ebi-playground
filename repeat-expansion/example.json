@@ -1,0 +1,618 @@
+{
+    "clinvarSet": {
+        "recordStatus": "current",
+        "title": "NM_002111.7(HTT):c.52CAG(36_39) AND Huntington's chorea",
+        "referenceClinVarAssertion": {
+            "clinVarAccession": {
+                "acc": "RCV000032099",
+                "version": 1,
+                "type": "RCV",
+                "dateUpdated": 1567206000000
+            },
+            "recordStatus": "current",
+            "clinicalSignificance": {
+                "reviewStatus": "NO_ASSERTION_CRITERIA_PROVIDED",
+                "description": "Pathogenic",
+                "dateLastEvaluated": 1271890800000
+            },
+            "assertion": {
+                "type": "VARIATION_TO_DISEASE"
+            },
+            "observedIn": [
+                {
+                    "sample": {
+                        "origin": "not provided",
+                        "species": {
+                            "value": "human",
+                            "taxonomyId": 9606
+                        },
+                        "affectedStatus": "not provided"
+                    },
+                    "method": [
+                        {
+                            "purpose": "assert pathogenicity",
+                            "methodType": "CURATION"
+                        }
+                    ],
+                    "observedData": [
+                        {
+                            "attribute": {
+                                "value": "not provided",
+                                "type": "Description"
+                            },
+                            "id": 43904113
+                        }
+                    ]
+                }
+            ],
+            "measureSet": {
+                "measure": [
+                    {
+                        "name": [
+                            {
+                                "elementValue": {
+                                    "value": "NM_002111.7(HTT):c.52CAG(36_39)",
+                                    "type": "Preferred"
+                                }
+                            }
+                        ],
+                        "attributeSet": [
+                            {
+                                "attribute": {
+                                    "value": "LRG_763:g.5197CAG(36_39)",
+                                    "type": "HGVS, genomic, LRG",
+                                    "change": "g.5197CAG(36_39)",
+                                    "accession": "LRG_763"
+                                }
+                            },
+                            {
+                                "attribute": {
+                                    "value": "NG_009378.1:g.5197CAG(36_39)",
+                                    "type": "HGVS, genomic, RefSeqGene",
+                                    "change": "g.5197CAG(36_39)",
+                                    "accession": "NG_009378",
+                                    "version": 1
+                                }
+                            },
+                            {
+                                "attribute": {
+                                    "value": "NC_000004.12:g.3074877CAG(27_35)",
+                                    "integerValue": 38,
+                                    "type": "HGVS, genomic, top level",
+                                    "change": "g.3074877CAG(27_35)",
+                                    "accession": "NC_000004",
+                                    "version": 12
+                                }
+                            },
+                            {
+                                "attribute": {
+                                    "value": "NC_000004.11:g.3076604CAG(36-39)",
+                                    "integerValue": 37,
+                                    "type": "HGVS, non-validated",
+                                    "change": "g.3076604CAG(36-39)",
+                                    "accession": "NC_000004",
+                                    "version": 11
+                                }
+                            },
+                            {
+                                "attribute": {
+                                    "value": "NM_002111.6:c.52CAG(36_39)",
+                                    "type": "HGVS, previous",
+                                    "change": "c.52CAG(36_39)",
+                                    "accession": "NM_002111",
+                                    "version": 6
+                                }
+                            },
+                            {
+                                "attribute": {
+                                    "value": "NM_002111.7:c.52CAG(36_39)",
+                                    "type": "HGVS, previous",
+                                    "change": "c.52CAG(36_39)",
+                                    "accession": "NM_002111",
+                                    "version": 7
+                                }
+                            }
+                        ],
+                        "globalMinorAlleleFrequency": {
+                            "value": 0.3778,
+                            "source": "1000 Genomes Project",
+                            "minorAllele": "CAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCA"
+                        },
+                        "cytogeneticLocation": [
+                            "4p16.3"
+                        ],
+                        "sequenceLocation": [
+                            {
+                                "assembly": "GRCh38",
+                                "chr": "4",
+                                "accession": "NC_000004.12",
+                                "start": 3074877,
+                                "stop": 3074877,
+                                "displayStart": 3074877,
+                                "displayStop": 3074877,
+                                "assemblyAccessionVersion": "GCF_000001405.38",
+                                "assemblyStatus": "current",
+                                "positionVCF": 3074876,
+                                "referenceAlleleVCF": "C",
+                                "alternateAlleleVCF": "CCAGCAGCAGCAGCAGCAGCAGCAG"
+                            },
+                            {
+                                "assembly": "GRCh37",
+                                "chr": "4",
+                                "accession": "NC_000004.11",
+                                "start": 3076604,
+                                "stop": 3076604,
+                                "displayStart": 3076604,
+                                "displayStop": 3076604,
+                                "assemblyAccessionVersion": "GCF_000001405.25",
+                                "assemblyStatus": "previous"
+                            }
+                        ],
+                        "measureRelationship": [
+                            {
+                                "name": [
+                                    {
+                                        "elementValue": {
+                                            "value": "huntingtin repeat instability region",
+                                            "type": "Preferred"
+                                        }
+                                    }
+                                ],
+                                "symbol": [
+                                    {
+                                        "elementValue": {
+                                            "value": "LOC109461479",
+                                            "type": "Preferred"
+                                        }
+                                    }
+                                ],
+                                "sequenceLocation": [
+                                    {
+                                        "assembly": "GRCh38",
+                                        "chr": "4",
+                                        "accession": "NC_000004.12",
+                                        "start": 3074877,
+                                        "stop": 3074940,
+                                        "displayStart": 3074877,
+                                        "displayStop": 3074940,
+                                        "strand": "+",
+                                        "assemblyAccessionVersion": "GCF_000001405.38",
+                                        "assemblyStatus": "current"
+                                    }
+                                ],
+                                "type": "within multiple genes by overlap",
+                                "xref": [
+                                    {
+                                        "db": "Gene",
+                                        "id": "109461479",
+                                        "status": "CURRENT"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": [
+                                    {
+                                        "elementValue": {
+                                            "value": "huntingtin",
+                                            "type": "Preferred"
+                                        }
+                                    }
+                                ],
+                                "symbol": [
+                                    {
+                                        "elementValue": {
+                                            "value": "HTT",
+                                            "type": "Preferred"
+                                        }
+                                    }
+                                ],
+                                "sequenceLocation": [
+                                    {
+                                        "assembly": "GRCh38",
+                                        "chr": "4",
+                                        "accession": "NC_000004.12",
+                                        "start": 3074681,
+                                        "stop": 3243960,
+                                        "displayStart": 3074681,
+                                        "displayStop": 3243960,
+                                        "strand": "+",
+                                        "assemblyAccessionVersion": "GCF_000001405.38",
+                                        "assemblyStatus": "current"
+                                    },
+                                    {
+                                        "assembly": "GRCh37",
+                                        "chr": "4",
+                                        "accession": "NC_000004.11",
+                                        "start": 3076407,
+                                        "stop": 3245686,
+                                        "displayStart": 3076407,
+                                        "displayStop": 3245686,
+                                        "strand": "+",
+                                        "variantLength": 169280,
+                                        "assemblyAccessionVersion": "GCF_000001405.25",
+                                        "assemblyStatus": "previous"
+                                    }
+                                ],
+                                "type": "within multiple genes by overlap",
+                                "xref": [
+                                    {
+                                        "db": "Gene",
+                                        "id": "3064",
+                                        "status": "CURRENT"
+                                    },
+                                    {
+                                        "db": "OMIM",
+                                        "id": "613004",
+                                        "type": "MIM",
+                                        "status": "CURRENT"
+                                    },
+                                    {
+                                        "db": "HGNC",
+                                        "id": "HGNC:4851",
+                                        "status": "CURRENT"
+                                    }
+                                ]
+                            }
+                        ],
+                        "type": "Microsatellite",
+                        "id": 40571,
+                        "xref": [
+                            {
+                                "db": "dbSNP",
+                                "id": "71180116",
+                                "type": "rs",
+                                "status": "CURRENT"
+                            }
+                        ]
+                    }
+                ],
+                "name": [
+                    {
+                        "elementValue": {
+                            "value": "NM_002111.7(HTT):c.52CAG(36_39)",
+                            "type": "Preferred"
+                        }
+                    }
+                ],
+                "type": "Variant",
+                "acc": "VCV000031916",
+                "version": 1,
+                "id": 31916
+            },
+            "traitSet": {
+                "trait": [
+                    {
+                        "name": [
+                            {
+                                "elementValue": {
+                                    "value": "Huntington's chorea",
+                                    "type": "Preferred"
+                                },
+                                "xref": [
+                                    {
+                                        "db": "Genetic Alliance",
+                                        "id": "Huntington+disease/3497",
+                                        "status": "CURRENT"
+                                    },
+                                    {
+                                        "db": "SNOMED CT",
+                                        "id": "58756001",
+                                        "status": "CURRENT"
+                                    }
+                                ]
+                            },
+                            {
+                                "elementValue": {
+                                    "value": "Huntington Disease",
+                                    "type": "Alternate"
+                                },
+                                "xref": [
+                                    {
+                                        "db": "GeneReviews",
+                                        "id": "NBK1305",
+                                        "status": "CURRENT"
+                                    }
+                                ]
+                            }
+                        ],
+                        "symbol": [
+                            {
+                                "elementValue": {
+                                    "value": "HD",
+                                    "type": "Preferred"
+                                },
+                                "xref": [
+                                    {
+                                        "db": "OMIM",
+                                        "id": "143100",
+                                        "type": "MIM",
+                                        "status": "CURRENT"
+                                    },
+                                    {
+                                        "db": "Office of Rare Diseases",
+                                        "id": "6677",
+                                        "status": "CURRENT"
+                                    }
+                                ]
+                            }
+                        ],
+                        "attributeSet": [
+                            {
+                                "attribute": {
+                                    "value": "Huntington disease (HD) is a progressive disorder of motor, cognitive, and psychiatric disturbances. The mean age of onset is 35 to 44 years and the median survival time is 15 to 18 years after onset.",
+                                    "type": "public definition"
+                                },
+                                "xref": [
+                                    {
+                                        "db": "GeneReviews",
+                                        "id": "NBK1305",
+                                        "status": "CURRENT"
+                                    }
+                                ]
+                            }
+                        ],
+                        "citation": [
+                            {
+                                "id": [
+                                    {
+                                        "value": "20301482",
+                                        "source": "PubMed"
+                                    },
+                                    {
+                                        "value": "NBK1305",
+                                        "source": "BookShelf"
+                                    }
+                                ],
+                                "type": "review",
+                                "abbrev": "GeneReviews"
+                            },
+                            {
+                                "id": [
+                                    {
+                                        "value": "1801355",
+                                        "source": "pmc"
+                                    }
+                                ],
+                                "type": "Position Statement",
+                                "abbrev": "ASHG/ACMG, 1995"
+                            },
+                            {
+                                "id": [
+                                    {
+                                        "value": "14726813",
+                                        "source": "PubMed"
+                                    }
+                                ],
+                                "type": "practice guideline",
+                                "abbrev": "ACMG, 2004"
+                            },
+                            {
+                                "id": [
+                                    {
+                                        "value": "1377103",
+                                        "source": "pmc"
+                                    }
+                                ],
+                                "type": "practice guideline",
+                                "abbrev": "ACMG/ASHG, 1998"
+                            },
+                            {
+                                "id": [
+                                    {
+                                        "value": "8058167",
+                                        "source": "PubMed"
+                                    }
+                                ],
+                                "type": "practice guideline",
+                                "abbrev": "IHA/WFN, 1994"
+                            },
+                            {
+                                "id": [
+                                    {
+                                        "value": "1049979",
+                                        "source": "pmc"
+                                    }
+                                ],
+                                "type": "practice guideline",
+                                "abbrev": "IHA/WFN, 1994"
+                            },
+                            {
+                                "id": [
+                                    {
+                                        "value": "2533250",
+                                        "source": "PubMed"
+                                    }
+                                ],
+                                "type": "Position Statement",
+                                "abbrev": "WFN, 1989"
+                            },
+                            {
+                                "id": [
+                                    {
+                                        "value": "22642570",
+                                        "source": "PubMed"
+                                    }
+                                ],
+                                "type": "practice guideline",
+                                "abbrev": "EHDN, 2013"
+                            },
+                            {
+                                "id": [
+                                    {
+                                        "value": "22990145",
+                                        "source": "PubMed"
+                                    }
+                                ],
+                                "type": "practice guideline",
+                                "abbrev": "EMQN/CMGS, 2013"
+                            },
+                            {
+                                "id": [
+                                    {
+                                        "value": "3413759",
+                                        "source": "pmc"
+                                    }
+                                ],
+                                "type": "practice guideline",
+                                "abbrev": "AAN, 2012"
+                            },
+                            {
+                                "id": [
+                                    {
+                                        "value": "25169240",
+                                        "source": "PubMed"
+                                    }
+                                ],
+                                "type": "Recommendation",
+                                "abbrev": "EHDN, 2014"
+                            }
+                        ],
+                        "type": "Disease",
+                        "id": 5269,
+                        "xref": [
+                            {
+                                "db": "MedGen",
+                                "id": "C0020179",
+                                "status": "CURRENT"
+                            },
+                            {
+                                "db": "Orphanet",
+                                "id": "248111",
+                                "status": "CURRENT"
+                            },
+                            {
+                                "db": "Orphanet",
+                                "id": "399",
+                                "status": "CURRENT"
+                            },
+                            {
+                                "db": "OMIM",
+                                "id": "143100",
+                                "type": "MIM",
+                                "status": "CURRENT"
+                            }
+                        ]
+                    }
+                ],
+                "type": "Disease",
+                "id": 112
+            },
+            "dateCreated": 1357603200000,
+            "dateLastUpdated": 1567206000000,
+            "id": 92292
+        },
+        "clinVarAssertion": [
+            {
+                "clinVarSubmissionID": {
+                    "submitter": "GeneReviews",
+                    "title": "NM_002111.6:c.52_54CAG(36_39) and Huntington Disease",
+                    "localKey": "NM_002111.6:c.52_54CAG(36_39)_NBK1305",
+                    "submitterDate": 1357603200000
+                },
+                "clinVarAccession": {
+                    "acc": "SCV000054533",
+                    "version": 1,
+                    "type": "SCV",
+                    "orgID": 500062,
+                    "dateUpdated": 1562022000000,
+                    "orgType": "primary",
+                    "organizationCategory": "resource"
+                },
+                "recordStatus": "current",
+                "clinicalSignificance": {
+                    "reviewStatus": "NO_ASSERTION_CRITERIA_PROVIDED",
+                    "description": [
+                        "pathologic"
+                    ],
+                    "comment": [
+                        {
+                            "value": "Converted during submission to Pathogenic.",
+                            "type": "CONVERTED_BY_NCBI"
+                        }
+                    ],
+                    "dateLastEvaluated": 1271890800000
+                },
+                "assertion": {
+                    "type": "variation to disease"
+                },
+                "externalID": {
+                    "db": "GeneReviews",
+                    "id": "NBK1305",
+                    "status": "CURRENT"
+                },
+                "observedIn": [
+                    {
+                        "sample": {
+                            "origin": "not provided",
+                            "species": {
+                                "value": "human"
+                            },
+                            "affectedStatus": "not provided"
+                        },
+                        "method": [
+                            {
+                                "purpose": "Assert pathogenicity",
+                                "methodType": "CURATION"
+                            }
+                        ],
+                        "observedData": [
+                            {
+                                "attribute": {
+                                    "value": "not provided",
+                                    "type": "Description"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "measureSet": {
+                    "measure": [
+                        {
+                            "attributeSet": [
+                                {
+                                    "attribute": {
+                                        "value": "NM_002111.6:c.52_54CAG(36_39)",
+                                        "type": "HGVS"
+                                    }
+                                }
+                            ],
+                            "type": "Variation"
+                        }
+                    ],
+                    "type": "Variant"
+                },
+                "traitSet": {
+                    "trait": [
+                        {
+                            "name": [
+                                {
+                                    "elementValue": {
+                                        "value": "Huntington Disease",
+                                        "type": "Preferred"
+                                    }
+                                }
+                            ],
+                            "type": "Disease",
+                            "xref": [
+                                {
+                                    "db": "GeneReviews",
+                                    "id": "NBK1305",
+                                    "status": "CURRENT"
+                                },
+                                {
+                                    "db": "OMIM",
+                                    "id": "143100",
+                                    "type": "MIM Number",
+                                    "status": "CURRENT"
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "Disease"
+                },
+                "id": 91061
+            }
+        ],
+        "id": 45395290
+    }
+}
